@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Safetrip Regression" thread-count="2" parallel = "tests">
+	
+	<test  name="Safetrip Test FireFox" >
+	<parameter name="browser" value="firefox"/>
+	<parameter name="browserversion" value="49.0"/>
+	<parameter name="os" value="Windows 10"/>
+		<classes>
+			<class name="safetrip.tests.EnterTravelerAndPurchaserInfoTest">
+				<methods>
+					<include name="enterInboundTripInfo_test"/>
+					<include name="verifyTripInfoDetails_test"/>
+					<include name="verifyInboundTripToolTips_test"/>
+					<include name="verifyDatePickedFromCalender_test"/>
+					<include name="verifyTheStepCountIsInCreasingForInBound_test"/>
+					<include name="verifyErrorMessagesIfFieldsAreMissed_test"/>
+					<include name="setOutboundTravel_test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test  name="Safetrip Test InternetExplorer" >
+	<parameter name="browser" value="internet explorer"/>
+	<parameter name="browserversion" value="11.0"/>
+	<parameter name="os" value="Windows 7"/>
+		<classes>
+			<class name="safetrip.tests.EnterTravelerAndPurchaserInfoTest">
+				<methods>
+					<include name="enterInboundTripInfo_test"/>
+					<include name="verifyTripInfoDetails_test"/>
+					<include name="verifyInboundTripToolTips_test"/>
+					<include name="verifyDatePickedFromCalender_test"/>
+					<include name="verifyTheStepCountIsInCreasingForInBound_test"/>
+					<include name="verifyErrorMessagesIfFieldsAreMissed_test"/>
+					<include name="setOutboundTravel_test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

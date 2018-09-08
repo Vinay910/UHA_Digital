@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Enrollment Regression" thread-count="2" parallel = "tests">
+	
+	<test  name="UH CMS Test InternetExplorer" >
+	<parameter name="browser" value="internet explorer"/>
+	<parameter name="browserversion" value="11.0"/>
+	<parameter name="os" value="Windows 7"/>
+	
+		<classes>
+		    <class name="uHAPortal.tests.CategoryManagerCreateTest" />
+		</classes>
+		
+	</test>
+</suite>

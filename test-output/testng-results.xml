@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="19" total="21" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="454478" started-at="2018-08-13T18:06:30Z" finished-at="2018-08-13T18:14:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="454478" started-at="2018-08-13T18:06:30Z" finished-at="2018-08-13T18:14:05Z">
+      <class name="uHAPortal.tests.HomeTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="beforeSuite" is-config="true" duration-ms="882" started-at="2018-08-13T23:36:29Z" finished-at="2018-08-13T23:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="beforeTest" is-config="true" duration-ms="1233" started-at="2018-08-13T23:36:30Z" finished-at="2018-08-13T23:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforClass()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="beforClass" is-config="true" duration-ms="335803" started-at="2018-08-13T23:36:31Z" finished-at="2018-08-13T23:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method status="PASS" signature="beforMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="beforMethod" is-config="true" duration-ms="50284" started-at="2018-08-13T23:42:07Z" finished-at="2018-08-13T23:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void uHAPortal.tests.HomeTest.TC_08() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="TC_08()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="TC_08" duration-ms="44643" started-at="2018-08-13T23:42:58Z" finished-at="2018-08-13T23:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="afterMethod" is-config="true" duration-ms="1570" started-at="2018-08-13T23:43:42Z" finished-at="2018-08-13T23:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_08 status=SUCCESS method=HomeTest.TC_08()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="beforMethod" is-config="true" duration-ms="19604" started-at="2018-08-13T23:43:44Z" finished-at="2018-08-13T23:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void uHAPortal.tests.HomeTest.Tc_02()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="Tc_02()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="Tc_02" duration-ms="478" started-at="2018-08-13T23:44:03Z" finished-at="2018-08-13T23:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_02 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="afterMethod" is-config="true" duration-ms="832" started-at="2018-08-13T23:44:04Z" finished-at="2018-08-13T23:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_02 status=SUCCESS method=HomeTest.Tc_02()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:uHAPortal.tests.HomeTest@3b0143d3]" name="aftersuite" is-config="true" duration-ms="9806" started-at="2018-08-13T23:44:05Z" finished-at="2018-08-13T23:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- uHAPortal.tests.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
